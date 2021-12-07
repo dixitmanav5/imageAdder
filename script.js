@@ -13,7 +13,7 @@ printBtn.addEventListener('click',()=>{
   setTimeout(function() {
 printBtn.style.display="inline";
  addFileInput.style.display="inline";
-  }, 1500);
+  }, 5000);
 })
 //onclick listener on addFileInput
 addFileInput.addEventListener('change',(event)=>{
