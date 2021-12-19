@@ -36,4 +36,6 @@ addFileInput.addEventListener('change',(event)=>{
     `
   })
   }
+  //setting value of input tag as "" so that if same file is selected twice onChange event can be fired
+  event.target.value="";
 })
